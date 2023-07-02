@@ -3,7 +3,5 @@ scikit-image
 Pillow
 imageio
 tensorflow
-lycon
-jpeg4py
 torch
 torchvision
