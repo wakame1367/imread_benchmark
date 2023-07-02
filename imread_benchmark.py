@@ -44,11 +44,11 @@ def library_version():
     def get_name(obj):
         return getattr(obj, "__name__", "None")
 
-    Logger.info("=" * 32, "OS info", "=" * 32)
+    Logger.info(f'{"=" * 32}, "OS info", {"=" * 32}')
     Logger.info(platform.platform())
-    Logger.info("=" * 32, "Python version", "=" * 32)
+    Logger.info(f'{"=" * 32},  "Python version", {"=" * 32}')
     Logger.info(sys.version)
-    Logger.info("=" * 32, "Libraries version", "=" * 32)
+    Logger.info(f'{"=" * 32}, "Libraries version", {"=" * 32}')
     for _obj in image_libs:
         Logger.info(f"{get_name(_obj)}: {get_version(_obj)}")
 
