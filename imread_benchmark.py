@@ -9,7 +9,6 @@ from pathlib import Path
 import PIL.Image
 import cv2
 import imageio
-import jpeg4py
 import numpy as np
 import skimage
 import skimage.color
